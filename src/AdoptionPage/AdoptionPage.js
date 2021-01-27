@@ -100,7 +100,7 @@ class AdoptionPage extends Component {
 		})
 			.then((response) => response.json())
 			.then((data) => {
-				const [removePerson, ...people] = this.state.people;
+				const [ , ...people] = this.state.people;
 				const canAdopt = people[0] === this.state.currentPerson;
 
 				const message = canAdopt
@@ -131,7 +131,7 @@ class AdoptionPage extends Component {
 		})
 			.then((response) => response.json())
 			.then((data) => {
-				const [removePerson, ...people] = this.state.people;
+				const [ , ...people] = this.state.people;
 				const canAdopt = people[0] === this.state.currentPerson;
 
 				const message = canAdopt

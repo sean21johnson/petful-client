@@ -1,10 +1,10 @@
-# Petful App
+# Petful App - Client
 
 ## Add your name to the queue. Adopt a pet within minutes!
 
 ---
 
-[View the Petful app here]
+[View the Petful app here](https://petful-client-nu-taupe.vercel.app/adoption)
 
 [View the Petful server repo here](https://github.com/sean21johnson/petful-server)
 
