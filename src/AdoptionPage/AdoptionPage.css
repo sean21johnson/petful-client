@@ -1,0 +1,133 @@
+.adoption_section {
+	margin-right: auto;
+}
+
+h2.adoption_header {
+	text-align: center;
+	background-color: #39c8da;
+	font-size: 30px;
+	padding: 10px;
+	width: 70%;
+	margin-left: auto;
+	color: white;
+	text-shadow: 2px 2px black;
+	font-family: sans-serif;
+	margin-right: auto;
+	border-radius: 10px;
+	font-variant-caps: petite-caps;
+}
+
+h4 {
+	margin-left: 15px;
+	font-family: sans-serif;
+	color: rgb(255 107 84);
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+ol.user_list {
+	font-size: 18px;
+	margin-left: 25px;
+	font-family: sans-serif;
+}
+
+.user_queue_item {
+	border: 1px black dotted;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: aliceblue;
+}
+
+.new_name {
+	margin-bottom: 8px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#name {
+	padding: 5px;
+}
+
+.join_queue_button {
+	font-size: 15px;
+	color: white;
+	background-color: #39c8da;
+	border-radius: 10px;
+}
+
+.all_pets {
+	background-color: aliceblue;
+	border: 1px black dotted;
+}
+
+h6 {
+	font-size: 20px;
+	text-align: center;
+	margin: 15px;
+	color: rgb(0, 99, 99);
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.double_adopt {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.double_adopt_button {
+	color: white;
+	background-color: rgb(255 107 84);
+	padding: 2px 8px;
+	border-radius: 5px;
+}
+
+@media all and (min-width: 800px) {
+	.adoption_section {
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#name {
+		font-size: 18px;
+	}
+
+	.join_queue_button {
+		font-size: 18px;
+	}
+
+	.new_name {
+		justify-content: center;
+	}
+
+	.join_queue_button {
+		margin-left: 20px;
+	}
+
+	ol {
+		padding-left: 100px;
+	}
+
+	h4 {
+		font-size: 25px;
+		padding-bottom: 15px;
+		margin-top: 15px;
+	}
+
+	h6 {
+		font-size: 30px;
+		margin: 25px;
+	}
+
+	.double_adopt_button {
+		font-size: 25px;
+	}
+
+	h2.adoption_header {
+		font-size: 50px;
+		width: 50%;
+	}
+}
