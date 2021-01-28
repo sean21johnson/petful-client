@@ -1,5 +1,5 @@
 let config = {
-	API_ENDPOINT: "http://localhost:8000",
-};
+    API_ENDPOINT: 'https://safe-atoll-66075.herokuapp.com'
+}
 
 export default config;

@@ -100,7 +100,7 @@ class AdoptionPage extends Component {
 		})
 			.then((response) => response.json())
 			.then((data) => {
-				const [ , ...people] = this.state.people;
+				const [, ...people] = this.state.people;
 				const canAdopt = people[0] === this.state.currentPerson;
 
 				const message = canAdopt
@@ -131,7 +131,7 @@ class AdoptionPage extends Component {
 		})
 			.then((response) => response.json())
 			.then((data) => {
-				const [ , ...people] = this.state.people;
+				const [, ...people] = this.state.people;
 				const canAdopt = people[0] === this.state.currentPerson;
 
 				const message = canAdopt
@@ -186,6 +186,8 @@ class AdoptionPage extends Component {
 						<h4>Pets up for Adoption</h4>
 						<section className="pets_queue">
 							<PetsQueue
+								animalType={"cat"}
+								otherAnimal={"dog"}
 								data={this.state.cat}
 								canAdopt={this.state.canAdopt}
 								handleAdoption={() => {
@@ -195,6 +197,8 @@ class AdoptionPage extends Component {
 						</section>
 						<section className="pets_queue">
 							<PetsQueue
+								animalType={"dog"}
+								otherAnimal={"cat"}
 								data={this.state.dog}
 								canAdopt={this.state.canAdopt}
 								handleAdoption={() => {
