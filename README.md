@@ -4,7 +4,7 @@
 
 ---
 
-[View the Petful app here](https://petful-client-nu-taupe.vercel.app/adoption)
+[View the Petful app here](https://petful-client-nu-taupe.vercel.app)
 
 [View the Petful server repo here](https://github.com/sean21johnson/petful-server)
 
